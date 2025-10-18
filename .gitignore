@@ -1,0 +1,45 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Logs
+*.log
+
+# Test results
+TestResults/
+*.coverage
+*.coveragejson
+
+# Docker
+*.pid
+*.seed
+*.pid.lock
+
+# Others
+*.DS_Store
+*.swp
+*.swn
+*.swo
+*.tmp
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Local environment
+appsettings.Development.json
