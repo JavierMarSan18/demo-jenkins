@@ -49,4 +49,15 @@ public class MathServiceTests
         // Assert
         Assert.Equal(expected, result);
     }
+
+    [Fact]
+    public void Multiply_ShouldReturnProduct_WhenGivenTwoNumbers()
+    {
+        // Arrange
+        int a = 3, b = 4;
+        // Act
+        var result = _mathService.Multiply(a, b);
+        // Assert
+        Assert.Equal(12, result);
+    }
 }

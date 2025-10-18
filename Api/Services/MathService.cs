@@ -1,3 +1,4 @@
+
 namespace Api.Services;
 
 public class MathService
@@ -7,4 +8,6 @@ public class MathService
     public int Subtract(int a, int b) => a - b;
 
     public bool IsEven(int number) => number % 2 == 0;
+
+    public int Multiply(int a, int b) => a * b;
 }
