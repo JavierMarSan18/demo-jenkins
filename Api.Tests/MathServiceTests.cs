@@ -60,4 +60,14 @@ public class MathServiceTests
         // Assert
         Assert.Equal(12, result);
     }
+    [Fact]
+    public void Divide_ShouldReturnQuotient_WhenGivenTwoNumbers()
+    {
+        // Arrange
+        int a = 8, b = 2;
+        // Act
+        var result = _mathService.Divide(a, b);
+        // Assert
+        Assert.Equal(4, result);
+    }
 }
