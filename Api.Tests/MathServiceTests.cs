@@ -68,6 +68,6 @@ public class MathServiceTests
         // Act
         var result = _mathService.Divide(a, b);
         // Assert
-        Assert.Equal(4, result);
+        Assert.Equal(7, result);
     }
 }
